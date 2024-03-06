@@ -5,8 +5,8 @@
  * 
  */
 function SettingWebHook() {
-    const botToken = '931695854:AAEQWLPlmdKEgNYI5IMPytKIUThoFLNPAy8'; // Replace <your-bot-token> with your actual bot token
-    const webhookUrl = 'https://script.google.com/macros/s/AKfycbxt248QnsmRUXNFlkW5SLIN75_CexKRdwgnB7lpocX6PQrG7XQ3AUBCBeyV29JGG4VLnA/exec'; // Replace <your-web-app-url> with the URL of your deployed web app
+    const botToken = '6179436473:AAHrPLLZBSjks3kzs5rvEVcD52UaAellVzE'; // Replace <your-bot-token> with your actual bot token
+    const webhookUrl = 'https://script.google.com/macros/s/AKfycbzuzPnYylrWav_I5_tDjzT_duL4l0e86Vr958MLZRxq_YI--_YpmnsPjy72YaH3IdvA/exec'; // Replace <your-web-app-url> with the URL of your deployed web app
   
     /** @type {Telesun} */
     const telesun = new Telesun.connectBot(botToken);
@@ -19,7 +19,7 @@ function SettingWebHook() {
    *
    */
   function deletewebHook() {
-    const botToken = '931695854:AAEQWLPlmdKEgNYI5IMPytKIUThoFLNPAy8'; // Replace <your-bot-token> with your actual bot token
+    const botToken = '6179436473:AAHrPLLZBSjks3kzs5rvEVcD52UaAellVzE'; // Replace <your-bot-token> with your actual bot token
   
     /** @type {Telesun} */
     new Telesun.connectBot(botToken).deleteWebhook();
