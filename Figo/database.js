@@ -1,5 +1,5 @@
 function getSpreadsheetID() {
-    return "1XOBd_yAcQ8v-4QlqkO0KmAC4juQxTdXT8L-BpKOMgnQ";
+    return "<spreadsheet id>";
   }
   
   function getSheet(a) {
