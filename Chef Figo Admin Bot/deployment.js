@@ -19,7 +19,7 @@ function SettingWebHook() {
    *
    */
   function deletewebHook() {
-    const botToken = '931695854:AAEQWLPlmdKEgNYI5IMPytKIUThoFLNPAy8'; // Replace <your-bot-token> with your actual bot token
+    const botToken = 'bot-token'; // Replace <your-bot-token> with your actual bot token
   
     /** @type {Telesun} */
     new Telesun.connectBot(botToken).deleteWebhook();
