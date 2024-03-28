@@ -1,12 +1,12 @@
 function doPost(e) {
     /** @type telesun */
-    const telesun = new Telesun.connectBot('6179436473:AAHrPLLZBSjks3kzs5rvEVcD52UaAellVzE');
+    const telesun = new Telesun.connectBot('<bot-token>');
   
     telesun
       .temporaryMemory(CacheService)
       .permanentMemory(PropertiesService)
       .contact(getContact)
-      .connectToSpreadSheet("1XOBd_yAcQ8v-4QlqkO0KmAC4juQxTdXT8L-BpKOMgnQ")
+      .connectToSpreadSheet("spreadsheet id")
       .start(start)
       .action("customer_confirm", confirmOrder)
       .action("customer_cancel", cancelOrder)

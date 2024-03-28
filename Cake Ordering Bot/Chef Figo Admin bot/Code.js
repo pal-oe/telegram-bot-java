@@ -1,6 +1,6 @@
 function doPost(e) {
     /** @type telesun */
-    const telesun = new Telesun.connectBot('931695854:AAEQWLPlmdKEgNYI5IMPytKIUThoFLNPAy8');
+    const telesun = new Telesun.connectBot('bot-token');
   
     telesun
       .temporaryMemory(CacheService)
