@@ -1,6 +1,4 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-[![GitHub stars](https://img.shields.io/github/stars/your-repo.svg)](https://github.com/pal-oe/telegram-bot-using-telesun/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/your-repo.svg)](https://github.com/pal-oe/telegram-bot-using-telesun/issues)
 
 ## My Telegram Bot projects on appscript
 
